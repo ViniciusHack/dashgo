@@ -28,17 +28,22 @@ export function Header() {
     >
       {!isWideVersion && (
         <IconButton 
-        aria-label="Open navigation"
-        icon={<Icon as={RiMenuLine} />} 
-        fontSize="24" 
-        variant="unstyled" 
-        onClick={onOpen}
-        mr="2"
+          display="flex"
+          alignItems="center"
+          justifyContent="right"
+          aria-label="Open navigation"
+          icon={<Icon as={RiMenuLine} />} 
+          fontSize="24" 
+          variant="unstyled" 
+          onClick={onOpen}
+          mr="2"
         >
 
         </IconButton>
       )}
+
       <Logo />
+      
       {isWideVersion && <SearchBox /> }
       <Flex
         align="center"
