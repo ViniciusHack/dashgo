@@ -3,6 +3,7 @@ import { AppProps } from 'next/app'
 import { SidebarDrawerProvider } from '../contexts/SidebarDrawerContext'
 import { makeServer } from '../services/mirage'
 import { theme } from '../styles/theme'
+import { ReactQueryDevtools } from 'react-query/devtools'
 
 import { QueryClientProvider, QueryClient } from 'react-query'
 
@@ -19,6 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <SidebarDrawerProvider>
         <Component {...pageProps} />
       </SidebarDrawerProvider>
+      <ReactQueryDevtools />
       </QueryClientProvider>
     </ChakraProvider>
   )
