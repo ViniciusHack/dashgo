@@ -28,7 +28,6 @@
 </p>
 
 
-# dashgo
 ## 👨🏻‍💻 About the project
 **dashgo** is an admin painel website, we build it in Ingite chapter 4.
 
