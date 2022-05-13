@@ -16,7 +16,7 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/ViniciusHack/dashgo">
   
   <a href="https://github.com/ViniciusHack/upfi/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ViniciusHack/upfi">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ViniciusHack/dashgo">
   </a>
 </p>
 
